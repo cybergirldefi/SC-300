@@ -56,8 +56,7 @@ Task 2 – PowerShell / Microsoft Graph
 ![Confirming PowerShell 7 availability via winget search](lab1-14-powershell-winget-search.png)
 ![Connect-MgGraph and Get-MgUser output](lab1-15-connect-mggraph.png)
 Commands used (for reference):powershell
-$PWProfile = @{ Password = 'samplePassword1234$';
-    ForceChangePasswordNextSignIn = $false}
+$PWProfile = @{ Password = 'samplePassword1234$'; ForceChangePasswordNextSignIn = $false}
 New-MgUser -DisplayName "New PW User" -GivenName "New" -Surname "User" `
     -MailNickname "newuser" -UsageLocation "US" `
     -UserPrincipalName "newuser@lodsm387934.onmicrosoft.com" `
