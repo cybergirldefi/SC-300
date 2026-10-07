@@ -72,7 +72,7 @@ Task 3 – Experiment with alternate rules
 
 
  Key takeaways from this lab
-- Group-based licensing is the recommended way to manage licenses at scale — assigning a license to a group automatically applies it to every current and future member.
+- Group-based licensing is the recommended way to manage licenses at scale assigning a license to a group automatically applies it to every current and future member.
 - Dynamic groups use membership rules (based on user or device attributes) to stay automatically up to date, unlike static groups which require manual membership management.
 - Dynamic membership rules are case-sensitive — `objectId` and`userType` must be typed exactly, or group creation fails.
 - Both security groups and Microsoft 365 groups can use dynamic membership rules.
